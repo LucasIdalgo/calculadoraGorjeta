@@ -21,10 +21,20 @@
         android:max="30" />
 
     <EditText
+        android:id="@+id/porcentagemValor"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="@string/hintValorGorjetaPorcentagem"
+        android:inputType="number" />
+
+    <EditText
         android:id="@+id/valorGorjeta"
         android:layout_width="match_parent"
         android:layout_height="79dp"
         android:ems="10"
+        android:enabled="false"
         android:hint="@string/hintValorGorjeta"
         android:inputType="number" />
 
@@ -33,6 +43,8 @@
         android:layout_width="match_parent"
         android:layout_height="79dp"
         android:ems="10"
+        android:enabled="false"
         android:hint="@string/hintValorTotal"
         android:inputType="number" />
+
 </LinearLayout>
